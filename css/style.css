@@ -55,10 +55,10 @@ body {
 .header-links li a:hover {
   color: orange;
 }
-.header-links li .active{
+.header-links li .active {
   color: orange;
 }
-.header-links li .active::after{
+.header-links li .active::after {
   width: 100%;
   opacity: 1;
 }
@@ -67,7 +67,7 @@ body {
   position: absolute;
   width: 0;
   height: 2px;
-  left:0;
+  left: 0;
   top: 115%;
   background-color: orange;
   opacity: 0;
@@ -147,6 +147,10 @@ body {
   margin: 5px auto 70px auto;
   transition: 0.5s;
 }
+.wel-header {
+  margin: auto;
+  width: fit-content;
+}
 .wel-header:hover .line {
   width: 400px;
 }
@@ -199,6 +203,10 @@ body {
   color: #0f172b;
   text-align: center;
   font-family: cursive;
+}
+.featured-header{
+  margin: auto;
+  width: fit-content;
 }
 .featured-header:hover .line {
   width: 310px;
@@ -274,6 +282,10 @@ body {
   color: #0f172b;
   text-align: center;
   font-family: cursive;
+}
+.adv-header{
+  margin: auto;
+  width: fit-content;
 }
 .adv-header:hover .line {
   width: 250px;
@@ -472,6 +484,10 @@ body {
   text-align: center;
   font-family: cursive;
 }
+.price-header{
+  margin: auto;
+  width: fit-content;
+}
 .price-header:hover .line {
   width: 200px;
 }
@@ -623,6 +639,10 @@ body {
   text-align: center;
   font-family: cursive;
 }
+.team-header{
+  margin: auto;
+  width: fit-content;
+}
 .team-header:hover .line {
   width: 155px;
 }
@@ -719,6 +739,10 @@ body {
   color: #0f172b;
   text-align: center;
   font-family: cursive;
+}
+.news-header{
+  margin: auto;
+  width: fit-content;
 }
 .news-header:hover .line {
   width: 140px;
@@ -821,7 +845,7 @@ body {
 }
 .foot-icons {
   list-style: none;
-  margin:30px ;
+  margin: 30px;
 }
 .foot-icons li {
   display: inline-block;
@@ -830,9 +854,9 @@ body {
   height: 50px;
   position: relative;
   border-radius: 50%;
-  margin-right:5px ;
+  margin-right: 5px;
 }
-.foot-icons li:hover{
+.foot-icons li:hover {
   background-color: rgb(218, 142, 1);
 }
 .foot-icons li a {
